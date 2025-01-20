@@ -1,0 +1,1691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainApp.cpp">
+      <Filter>00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Level_Logo.cpp">
+      <Filter>01. Levels\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02. GameObject\00. LandObject\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_DeathCatChainAttack.cpp">
+      <Filter>97. States\DeadCatState\00.Phase1\ChainAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_DeathCatFlyBallAttack.cpp">
+      <Filter>97. States\DeadCatState\00.Phase1\FlyBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_DeathCatIdle.cpp">
+      <Filter>97. States\DeadCatState\00.Phase1\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>98. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerIdle.cpp">
+      <Filter>97. States\PlayerState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerAxe.cpp">
+      <Filter>97. States\PlayerState\Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerCard.cpp">
+      <Filter>97. States\PlayerState\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerDie.cpp">
+      <Filter>97. States\PlayerState\Die</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerGF.cpp">
+      <Filter>97. States\PlayerState\Get_Follower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerGS.cpp">
+      <Filter>97. States\PlayerState\Get_Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerHammer.cpp">
+      <Filter>97. States\PlayerState\Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerKnockBack.cpp">
+      <Filter>97. States\PlayerState\KnockBack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerPickAxe.cpp">
+      <Filter>97. States\PlayerState\PickAxe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerResurrect.cpp">
+      <Filter>97. States\PlayerState\Resurrect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerRoll.cpp">
+      <Filter>97. States\PlayerState\Roll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerRun.cpp">
+      <Filter>97. States\PlayerState\Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerSermon.cpp">
+      <Filter>97. States\PlayerState\Sermon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerSpell.cpp">
+      <Filter>97. States\PlayerState\Spell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LandObject.cpp">
+      <Filter>02. GameObject\00. LandObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02. GameObject\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Camera.cpp">
+      <Filter>02. GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02. GameObject\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02. GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DecoObejct.cpp">
+      <Filter>02. GameObject\Terrain\DecoObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ChainAttack.cpp">
+      <Filter>02. GameObject\MonsterAttack\Chain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FlyBallAttack.cpp">
+      <Filter>02. GameObject\MonsterAttack\FlyBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\InteractObject.cpp">
+      <Filter>02. GameObject\Terrain\InteractObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Follower.cpp">
+      <Filter>02. GameObject\00. LandObject\Follower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bat.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\Bat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MouseClickUI.cpp">
+      <Filter>03. UI\GamePlay\MouseClickUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Follower_Command_UI.cpp">
+      <Filter>03. UI\GamePlay\FollowerCommandUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Follower_Idle.cpp">
+      <Filter>97. States\FollowerState\Follower_Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Follower_Walk.cpp">
+      <Filter>97. States\FollowerState\Follower_Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Follower_Axe.cpp">
+      <Filter>97. States\FollowerState\Follower_Axe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Follower_Mining.cpp">
+      <Filter>97. States\FollowerState\Follower_Mining</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Follower_Pray.cpp">
+      <Filter>97. States\FollowerState\Follower_Pray</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Follower_Worship.cpp">
+      <Filter>97. States\FollowerState\Follower_Worship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerAttack1.cpp">
+      <Filter>97. States\PlayerState\Attack\Combo1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerAttack2.cpp">
+      <Filter>97. States\PlayerState\Attack\Combo2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerAttack3.cpp">
+      <Filter>97. States\PlayerState\Attack\Combo3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Title.cpp">
+      <Filter>03. UI\Logo\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\LogoButtonUI.cpp">
+      <Filter>03. UI\Logo\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Frog.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\Frog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FrogSummon.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\Frog\FrogSummon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Human.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Grid.cpp">
+      <Filter>02. GameObject\Terrain\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BuildingObject.cpp">
+      <Filter>02. GameObject\Terrain\InteractObject\BuildingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGroundPlayer.cpp">
+      <Filter>02. GameObject\BackGround\BackGround_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Turret.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround_Crown.cpp">
+      <Filter>03. UI\Lodding\BackGround_Crown</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lodding_GagePanelUI.cpp">
+      <Filter>03. UI\Lodding\Lodding_Gage\Lodding_GagePanel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Lodding_GageUI.cpp">
+      <Filter>03. UI\Lodding\Lodding_Gage\Lodding_GageBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ZoomInPanelUI.cpp">
+      <Filter>03. UI\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuestPanelUI.cpp">
+      <Filter>03. UI\GamePlay\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\QuestOrnamentUI.cpp">
+      <Filter>03. UI\GamePlay\Quest\Oranment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mouse_Icon.cpp">
+      <Filter>03. UI\GamePlay\MouseClickUI\Mouse_Icon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_DeathCatDisappear.cpp">
+      <Filter>97. States\DeadCatState\00.Phase1\Disappear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_GusionIdle.cpp">
+      <Filter>97. States\GusionState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Gusion.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\01. Boss_Gusion</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_GusionDie.cpp">
+      <Filter>97. States\GusionState\Die</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_GusionRoar.cpp">
+      <Filter>97. States\GusionState\Roar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_GusionBurp.cpp">
+      <Filter>97. States\GusionState\Burp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_GusionJump.cpp">
+      <Filter>97. States\GusionState\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_GusionLE.cpp">
+      <Filter>97. States\GusionState\Lay_Egg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Eligor.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\02. Boss_Eligor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EligorIdle.cpp">
+      <Filter>97. States\EligorState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EligorRoar.cpp">
+      <Filter>97. States\EligorState\Roar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EligorTF.cpp">
+      <Filter>97. States\EligorState\Transform_Follower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EligorUC.cpp">
+      <Filter>97. States\EligorState\Unconverted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EligorBurp.cpp">
+      <Filter>97. States\EligorState\Burp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EilgorFA.cpp">
+      <Filter>97. States\EligorState\FlyAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BuildingPanelUI.cpp">
+      <Filter>03. UI\GamePlay\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect.cpp">
+      <Filter>02. GameObject\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_DeathCat.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Eye.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase2\Eyes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EyeIdle.cpp">
+      <Filter>97. States\DeadCatState\01.Phase2\Eye\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EyeAttack.cpp">
+      <Filter>97. States\DeadCatState\01.Phase2\Eye\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_HekatIdle.cpp">
+      <Filter>97. States\HekatState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_HekatJump.cpp">
+      <Filter>97. States\HekatState\Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_HekatLE.cpp">
+      <Filter>97. States\HekatState\Lay_Egg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_HekatDie.cpp">
+      <Filter>97. States\HekatState\Die</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_HekatTB.cpp">
+      <Filter>97. States\HekatState\Throw_Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_HekatRoar.cpp">
+      <Filter>97. States\HekatState\Roar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_HekatTF.cpp">
+      <Filter>97. States\HekatState\Transform_Frog</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_HekatTH.cpp">
+      <Filter>97. States\HekatState\Transform_Human</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CIrcle_Eye.cpp">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Eye</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Circle_Eye_Pupil.cpp">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Eye\Circle_Eye_Pupil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Command_Circle.cpp">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Letter_BoxUI.cpp">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\LetterBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EyeDisappear.cpp">
+      <Filter>97. States\DeadCatState\01.Phase2\Eye\Disappear</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item.cpp">
+      <Filter>02. GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Eligor_Bullet.cpp">
+      <Filter>02. GameObject\MonsterAttack\EilgorBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Follower_Circle_Button.cpp">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Building_IconUI.cpp">
+      <Filter>03. UI\GamePlay\Building\ItemIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerInventory.cpp">
+      <Filter>03. UI\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01. Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemIconUI.cpp">
+      <Filter>03. UI\Player\ItemIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Chest.cpp" />
+    <ClCompile Include="..\Private\State_HekatTFollower.cpp">
+      <Filter>97. States\HekatState\Transform_Follower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Hekat.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\03. Boss_Hekat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Hekat_Bullet.cpp">
+      <Filter>02. GameObject\MonsterAttack\HekatBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Mortal_Fly.cpp">
+      <Filter>02. GameObject\MonsterAttack\Mortal_Fly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\AlphabetButton.cpp">
+      <Filter>03. UI\GamePlay\AlpabetButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gusion_Bullet.cpp" />
+    <ClCompile Include="..\Private\Player_Bullet.cpp" />
+    <ClCompile Include="..\Private\Gusion_Bullet.cpp">
+      <Filter>02. GameObject\MonsterAttack\GusionBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Chest.cpp">
+      <Filter>02. GameObject\Item\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01. Levels\GamePlay\Village</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Dungeon00.cpp">
+      <Filter>01. Levels\GamePlay\Dungeon0</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Dungeon01.cpp">
+      <Filter>01. Levels\GamePlay\Dungeon1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Dungeon02.cpp">
+      <Filter>01. Levels\GamePlay\Dungeon2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gusion_Bullet.cpp" />
+    <ClCompile Include="..\Private\Player_Bullet.cpp" />
+    <ClCompile Include="..\Private\CraftPanelUI.cpp">
+      <Filter>03. UI\GamePlay\Building\Craft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CraftIconUI.cpp">
+      <Filter>03. UI\GamePlay\Building\Craft\CraftIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Gusion_Bullet.cpp">
+      <Filter>02. GameObject\MonsterAttack\GusionBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player_Bullet.cpp">
+      <Filter>02. GameObject\00. LandObject\00.Player\Player_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Road.cpp">
+      <Filter>02. GameObject\Terrain\Road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TarotPanel.cpp">
+      <Filter>03. UI\Tarot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PressEtoPickCard.cpp">
+      <Filter>03. UI\Tarot\ClickBtnE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TarotCard.cpp">
+      <Filter>03. UI\Tarot\Cards</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterBone.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\99.MonsterBone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TalkPanelUI.cpp">
+      <Filter>03. UI\GamePlay\Talk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Craft_KeyUI.cpp">
+      <Filter>03. UI\GamePlay\Building\Craft\Craft_Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MainPlayerUI.cpp">
+      <Filter>03. UI\Player\MainPlayerUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerHpUI.cpp">
+      <Filter>03. UI\Player\MainPlayerUI\PlayerHpUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SpellGauge.cpp">
+      <Filter>03. UI\Player\SpellGauge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonsterHpUI.cpp">
+      <Filter>03. UI\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\GuideUI.cpp">
+      <Filter>03. UI\GamePlay\GuideUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Dungeon03.cpp">
+      <Filter>01. Levels\GamePlay\Dungeon3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Rock_Particle.cpp">
+      <Filter>02. GameObject\Particle\Rock_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TalkIcon.cpp">
+      <Filter>03. UI\GamePlay\Talk\TalkIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemGetUI.cpp">
+      <Filter>03. UI\GamePlay\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemIcon.cpp">
+      <Filter>03. UI\GamePlay\Item\ItemIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonologueUI.cpp">
+      <Filter>03. UI\GamePlay\Monologue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerSermonUI.cpp">
+      <Filter>03. UI\Player\MainPlayerUI\PlayerSermonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Aim.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\04. Boss_Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Aim_Idle.cpp">
+      <Filter>97. States\AimState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CChainGround.cpp">
+      <Filter>02. GameObject\MonsterAttack\Chain\ChainGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\FadeInOut.cpp">
+      <Filter>03. UI\FadeInOut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\CardExplainPanel.cpp">
+      <Filter>03. UI\Tarot\ExplainPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="State_Player_Tarot.cpp">
+      <Filter>97. States\PlayerState\Tarot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\RatNPC.cpp">
+      <Filter>02. GameObject\00. LandObject\NPC\RatNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\TarotNPC.cpp">
+      <Filter>02. GameObject\00. LandObject\NPC\TarotNPC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EligorLE.cpp">
+      <Filter>97. States\EligorState\Lay_Egg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_DeathCatHurt.cpp">
+      <Filter>97. States\DeadCatState\00.Phase1\Hurt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ItemIcon.cpp">
+      <Filter>03. UI\GamePlay\Item\ItemIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonologueUI.cpp">
+      <Filter>03. UI\GamePlay\Monologue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\PlayerSermonUI.cpp">
+      <Filter>03. UI\Player\MainPlayerUI\PlayerSermonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Boss_Aim.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\04. Boss_Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Aim_Idle.cpp">
+      <Filter>97. States\AimState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Eye_Controller.cpp">
+      <Filter>02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase2\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_EyeDie.cpp">
+      <Filter>97. States\DeadCatState\01.Phase2\Eye\Die</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerWI.cpp">
+      <Filter>97. States\PlayerState\WarpIn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_PlayerWO.cpp">
+      <Filter>97. States\PlayerState\WarpOut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Aim_Walk.cpp">
+      <Filter>97. States\AimState\Walk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Aim_IdleToAttack.cpp">
+      <Filter>97. States\AimState\IdleToAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Aim_Attack1.cpp">
+      <Filter>97. States\AimState\Attack1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Aim_Attack2.cpp">
+      <Filter>97. States\AimState\Attack2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Aim_Attack3.cpp">
+      <Filter>97. States\AimState\Attack3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Door.cpp">
+      <Filter>02. GameObject\00. LandObject\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Follower_Indo.cpp">
+      <Filter>97. States\FollowerState\Follower_Indo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Aim_Die.cpp">
+      <Filter>97. States\AimState\Die</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bullet_Particle.cpp">
+      <Filter>02. GameObject\Particle\Bullet_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Bone_Particle.cpp">
+      <Filter>02. GameObject\Particle\Bone_Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\OpenIcon.cpp">
+      <Filter>03. UI\GamePlay\DungeonClearUI\OpenIcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\DungeonClearUI.cpp">
+      <Filter>03. UI\GamePlay\DungeonClearUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MonologuePanelUI.cpp">
+      <Filter>03. UI\GamePlay\Monologue\MonologuePanelUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Quest.cpp">
+      <Filter>04. Quest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>98. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainApp.h">
+      <Filter>00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Level_Logo.h">
+      <Filter>01. Levels\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02. GameObject\00. LandObject\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_DeathCatFlyBallAttack.h">
+      <Filter>97. States\DeadCatState\00.Phase1\FlyBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_DeathCatChainAttack.h">
+      <Filter>97. States\DeadCatState\00.Phase1\ChainAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_DeathCatIdle.h">
+      <Filter>97. States\DeadCatState\00.Phase1\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerIdle.h">
+      <Filter>97. States\PlayerState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerAxe.h">
+      <Filter>97. States\PlayerState\Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerCard.h">
+      <Filter>97. States\PlayerState\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerDie.h">
+      <Filter>97. States\PlayerState\Die</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerGF.h">
+      <Filter>97. States\PlayerState\Get_Follower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerGS.h">
+      <Filter>97. States\PlayerState\Get_Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerHammer.h">
+      <Filter>97. States\PlayerState\Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerKnockBack.h">
+      <Filter>97. States\PlayerState\KnockBack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerPickAxe.h">
+      <Filter>97. States\PlayerState\PickAxe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerResurrect.h">
+      <Filter>97. States\PlayerState\Resurrect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerRoll.h">
+      <Filter>97. States\PlayerState\Roll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerRun.h">
+      <Filter>97. States\PlayerState\Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerSermon.h">
+      <Filter>97. States\PlayerState\Sermon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerSpell.h">
+      <Filter>97. States\PlayerState\Spell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LandObject.h">
+      <Filter>02. GameObject\00. LandObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02. GameObject\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Camera.h">
+      <Filter>02. GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02. GameObject\00. LandObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02. GameObject\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02. GameObject\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DecoObejct.h">
+      <Filter>02. GameObject\Terrain\DecoObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ChainAttack.h">
+      <Filter>02. GameObject\MonsterAttack\Chain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FlyBallAttack.h">
+      <Filter>02. GameObject\MonsterAttack\FlyBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\InteractObject.h">
+      <Filter>02. GameObject\Terrain\InteractObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Follower.h">
+      <Filter>02. GameObject\00. LandObject\Follower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bat.h">
+      <Filter>02. GameObject\00. LandObject\Monster\Bat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MouseClickUI.h">
+      <Filter>03. UI\GamePlay\MouseClickUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Follower_Command_UI.h">
+      <Filter>03. UI\GamePlay\FollowerCommandUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Follower_Idle.h">
+      <Filter>97. States\FollowerState\Follower_Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Follower_Walk.h">
+      <Filter>97. States\FollowerState\Follower_Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Follower_Axe.h">
+      <Filter>97. States\FollowerState\Follower_Axe</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Follower_Mining.h">
+      <Filter>97. States\FollowerState\Follower_Mining</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Follower_Pray.h">
+      <Filter>97. States\FollowerState\Follower_Pray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Follower_Worship.h">
+      <Filter>97. States\FollowerState\Follower_Worship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerAttack1.h">
+      <Filter>97. States\PlayerState\Attack\Combo1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerAttack2.h">
+      <Filter>97. States\PlayerState\Attack\Combo2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerAttack3.h">
+      <Filter>97. States\PlayerState\Attack\Combo3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Title.h">
+      <Filter>03. UI\Logo\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\LogoButtonUI.h">
+      <Filter>03. UI\Logo\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Frog.h">
+      <Filter>02. GameObject\00. LandObject\Monster\Frog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FrogSummon.h">
+      <Filter>02. GameObject\00. LandObject\Monster\Frog\FrogSummon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Human.h">
+      <Filter>02. GameObject\00. LandObject\Monster\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Grid.h">
+      <Filter>02. GameObject\Terrain\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BuildingObject.h">
+      <Filter>02. GameObject\Terrain\InteractObject\BuildingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGroundPlayer.h">
+      <Filter>02. GameObject\BackGround\BackGround_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Turret.h">
+      <Filter>02. GameObject\00. LandObject\Monster\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround_Crown.h">
+      <Filter>03. UI\Lodding\BackGround_Crown</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lodding_GagePanelUI.h">
+      <Filter>03. UI\Lodding\Lodding_Gage\Lodding_GagePanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Lodding_GageUI.h">
+      <Filter>03. UI\Lodding\Lodding_Gage\Lodding_GageBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ZoomInPanelUI.h">
+      <Filter>03. UI\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuestPanelUI.h">
+      <Filter>03. UI\GamePlay\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\QuestOrnamentUI.h">
+      <Filter>03. UI\GamePlay\Quest\Oranment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mouse_Icon.h">
+      <Filter>03. UI\GamePlay\MouseClickUI\Mouse_Icon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_DeathCatDisappear.h">
+      <Filter>97. States\DeadCatState\00.Phase1\Disappear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_GusionIdle.h">
+      <Filter>97. States\GusionState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Gusion.h">
+      <Filter>02. GameObject\00. LandObject\Monster\01. Boss_Gusion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_GusionDie.h">
+      <Filter>97. States\GusionState\Die</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_GusionRoar.h">
+      <Filter>97. States\GusionState\Roar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_GusionBurp.h">
+      <Filter>97. States\GusionState\Burp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_GusionJump.h">
+      <Filter>97. States\GusionState\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_GusionLE.h">
+      <Filter>97. States\GusionState\Lay_Egg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Eligor.h">
+      <Filter>02. GameObject\00. LandObject\Monster\02. Boss_Eligor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EligorIdle.h">
+      <Filter>97. States\EligorState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EligorRoar.h">
+      <Filter>97. States\EligorState\Roar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EligorTF.h">
+      <Filter>97. States\EligorState\Transform_Follower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EligorUC.h">
+      <Filter>97. States\EligorState\Unconverted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EligorBurp.h">
+      <Filter>97. States\EligorState\Burp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EilgorFA.h">
+      <Filter>97. States\EligorState\FlyAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BuildingPanelUI.h">
+      <Filter>03. UI\GamePlay\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect.h">
+      <Filter>02. GameObject\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_DeathCat.h">
+      <Filter>02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Eye.h">
+      <Filter>02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase2\Eyes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EyeIdle.h">
+      <Filter>97. States\DeadCatState\01.Phase2\Eye\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EyeAttack.h">
+      <Filter>97. States\DeadCatState\01.Phase2\Eye\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatIdle.h">
+      <Filter>97. States\HekatState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatJump.h">
+      <Filter>97. States\HekatState\Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatLE.h">
+      <Filter>97. States\HekatState\Lay_Egg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatDie.h">
+      <Filter>97. States\HekatState\Die</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatTB.h">
+      <Filter>97. States\HekatState\Throw_Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatRoar.h">
+      <Filter>97. States\HekatState\Roar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatTF.h">
+      <Filter>97. States\HekatState\Transform_Frog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatTH.h">
+      <Filter>97. States\HekatState\Transform_Human</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Letter_BoxUI.h">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\LetterBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Circle_Eye_Pupil.h">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Eye\Circle_Eye_Pupil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CIrcle_Eye.h">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Eye</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Command_Circle.h">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EyeDisappear.h">
+      <Filter>97. States\DeadCatState\01.Phase2\Eye\Disappear</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item.h">
+      <Filter>02. GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Eligor_Bullet.h">
+      <Filter>02. GameObject\MonsterAttack\EilgorBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Follower_Circle_Button.h">
+      <Filter>03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Building_IconUI.h">
+      <Filter>03. UI\GamePlay\Building\ItemIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerInventory.h">
+      <Filter>03. UI\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemIconUI.h">
+      <Filter>03. UI\Player\ItemIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Chest.h" />
+    <ClInclude Include="..\Public\Boss_Hekat.h">
+      <Filter>02. GameObject\00. LandObject\Monster\03. Boss_Hekat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Hekat_Bullet.h">
+      <Filter>02. GameObject\MonsterAttack\HekatBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Mortal_Fly.h">
+      <Filter>02. GameObject\MonsterAttack\Mortal_Fly</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_HekatTFollower.h">
+      <Filter>97. States\HekatState\Transform_Follower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AlphabetButton.h">
+      <Filter>03. UI\GamePlay\AlpabetButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gusion_Bullet.h" />
+    <ClInclude Include="..\Public\Player_Bullet.h" />
+    <ClInclude Include="..\Public\Gusion_Bullet.h">
+      <Filter>02. GameObject\MonsterAttack\GusionBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Chest.h">
+      <Filter>02. GameObject\Item\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01. Levels\GamePlay\Village</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Dungeon00.h">
+      <Filter>01. Levels\GamePlay\Dungeon0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Operators.h">
+      <Filter>99. Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Dungeon01.h">
+      <Filter>01. Levels\GamePlay\Dungeon1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Dungeon02.h">
+      <Filter>01. Levels\GamePlay\Dungeon2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gusion_Bullet.h" />
+    <ClInclude Include="..\Public\Player_Bullet.h" />
+    <ClInclude Include="..\Public\CraftPanelUI.h">
+      <Filter>03. UI\GamePlay\Building\Craft</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CraftIconUI.h">
+      <Filter>03. UI\GamePlay\Building\Craft\CraftIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Gusion_Bullet.h">
+      <Filter>02. GameObject\MonsterAttack\GusionBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player_Bullet.h">
+      <Filter>02. GameObject\00. LandObject\00.Player\Player_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Road.h">
+      <Filter>02. GameObject\Terrain\Road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TarotPanel.h">
+      <Filter>03. UI\Tarot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PressEtoPickCard.h">
+      <Filter>03. UI\Tarot\ClickBtnE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TarotCard.h">
+      <Filter>03. UI\Tarot\Cards</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterBone.h">
+      <Filter>02. GameObject\00. LandObject\Monster\99.MonsterBone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Craft_KeyUI.h">
+      <Filter>03. UI\GamePlay\Building\Craft\Craft_Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TalkPanelUI.h">
+      <Filter>03. UI\GamePlay\Talk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MainPlayerUI.h">
+      <Filter>03. UI\Player\MainPlayerUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerHpUI.h">
+      <Filter>03. UI\Player\MainPlayerUI\PlayerHpUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SpellGauge.h">
+      <Filter>03. UI\Player\SpellGauge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonsterHpUI.h">
+      <Filter>03. UI\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\GuideUI.h">
+      <Filter>03. UI\GamePlay\GuideUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Dungeon03.h">
+      <Filter>01. Levels\GamePlay\Dungeon3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Rock_Particle.h">
+      <Filter>02. GameObject\Particle\Rock_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TalkIcon.h">
+      <Filter>03. UI\GamePlay\Talk\TalkIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemGetUI.h">
+      <Filter>03. UI\GamePlay\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemIcon.h">
+      <Filter>03. UI\GamePlay\Item\ItemIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonologueUI.h">
+      <Filter>03. UI\GamePlay\Monologue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerSermonUI.h">
+      <Filter>03. UI\Player\MainPlayerUI\PlayerSermonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Aim.h">
+      <Filter>02. GameObject\00. LandObject\Monster\04. Boss_Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Aim_Idle.h">
+      <Filter>97. States\AimState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CChainGround.h">
+      <Filter>02. GameObject\MonsterAttack\Chain\ChainGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\FadeInOut.h">
+      <Filter>03. UI\FadeInOut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Player_Tarot.h">
+      <Filter>97. States\PlayerState\Tarot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\CardExplainPanel.h">
+      <Filter>03. UI\Tarot\ExplainPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\RatNPC.h">
+      <Filter>02. GameObject\00. LandObject\NPC\RatNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\TarotNPC.h">
+      <Filter>02. GameObject\00. LandObject\NPC\TarotNPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EligorLE.h">
+      <Filter>97. States\EligorState\Lay_Egg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_DeathCatHurt.h">
+      <Filter>97. States\DeadCatState\00.Phase1\Hurt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ItemIcon.h">
+      <Filter>03. UI\GamePlay\Item\ItemIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonologueUI.h">
+      <Filter>03. UI\GamePlay\Monologue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\PlayerSermonUI.h">
+      <Filter>03. UI\Player\MainPlayerUI\PlayerSermonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Boss_Aim.h">
+      <Filter>02. GameObject\00. LandObject\Monster\04. Boss_Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Aim_Idle.h">
+      <Filter>97. States\AimState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Eye_Controller.h">
+      <Filter>02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase2\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_EyeDie.h">
+      <Filter>97. States\DeadCatState\01.Phase2\Eye\Die</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerWI.h">
+      <Filter>97. States\PlayerState\WarpIn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_PlayerWO.h">
+      <Filter>97. States\PlayerState\WarpOut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Aim_Walk.h">
+      <Filter>97. States\AimState\Walk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Aim_IdleToAttack.h">
+      <Filter>97. States\AimState\IdleToAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Aim_Attack1.h">
+      <Filter>97. States\AimState\Attack1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Aim_Attack2.h">
+      <Filter>97. States\AimState\Attack2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Aim_Attack3.h">
+      <Filter>97. States\AimState\Attack3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Door.h">
+      <Filter>02. GameObject\00. LandObject\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\DungeonClearUI.h">
+      <Filter>03. UI\GamePlay\DungeonClearUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Follower_Indo.h">
+      <Filter>97. States\FollowerState\Follower_Indo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Aim_Die.h">
+      <Filter>97. States\AimState\Die</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bullet_Particle.h">
+      <Filter>02. GameObject\Particle\Bullet_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Bone_Particle.h">
+      <Filter>02. GameObject\Particle\Bone_Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\OpenIcon.h">
+      <Filter>03. UI\GamePlay\DungeonClearUI\OpenIcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MonologuePanelUI.h">
+      <Filter>03. UI\GamePlay\Monologue\MonologuePanelUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Quest.h">
+      <Filter>04. Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01. Levels\Loading</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+    <Image Include="Client.ico">
+      <Filter>98. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="00. MainApp">
+      <UniqueIdentifier>{a87ee26e-84c3-4d81-9cd8-7b79b9d62c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels">
+      <UniqueIdentifier>{b8de1dfc-dfbd-47da-8708-1e7693d5e1cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay">
+      <UniqueIdentifier>{bbc5dd25-bcc5-407b-815f-8a01ba675161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\Loading">
+      <UniqueIdentifier>{5299afdf-e8d8-4ac4-8b58-c630a318c5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\Logo">
+      <UniqueIdentifier>{1997b9df-b833-4b71-8419-d5d91f579cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{956e5276-1e34-4e2b-9778-64499c5911ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject">
+      <UniqueIdentifier>{82806d2b-9a74-4fa6-8f19-d9dfa769619d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster">
+      <UniqueIdentifier>{106d625d-acf8-4531-abef-559cdb67e08f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI">
+      <UniqueIdentifier>{4d70144a-2122-41bf-bb3a-f3a986150a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States">
+      <UniqueIdentifier>{5882b0e8-5373-4f07-bf94-da8afdbd0aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState">
+      <UniqueIdentifier>{ea61d3f5-9784-4404-b413-784ebec8de8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState">
+      <UniqueIdentifier>{72aec5a2-9cd1-4b1f-924a-a44d88fb21c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Idle">
+      <UniqueIdentifier>{739e7fe3-b083-4187-87c0-1096e3490425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Attack">
+      <UniqueIdentifier>{27e972b6-d863-4926-9361-11d8e072dbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Axe">
+      <UniqueIdentifier>{8c2d7323-927a-4ffb-bd43-e81020f6f5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Card">
+      <UniqueIdentifier>{49b45f07-1b3c-4761-9b87-1e2b31395a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Die">
+      <UniqueIdentifier>{1bd6c92c-4f0f-4658-8449-58ad8627833b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Get_Follower">
+      <UniqueIdentifier>{bcf9f543-5e60-4d19-8fb8-2e3425fa0289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Get_Sword">
+      <UniqueIdentifier>{df5e2984-3a67-4abb-8ae9-f15d7a92240f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Hammer">
+      <UniqueIdentifier>{f68b704b-643c-4138-8c38-b5dd4a5b1158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\KnockBack">
+      <UniqueIdentifier>{ca546c9f-fa7d-4ebe-816f-0defa232711e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\PickAxe">
+      <UniqueIdentifier>{29ab5a8a-f4b6-42bb-b204-6819e777e2ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Resurrect">
+      <UniqueIdentifier>{9cff9d82-70b1-4f69-ad5c-1813d747768d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Roll">
+      <UniqueIdentifier>{2a1ae4c8-f62a-47ea-905f-ac6699b9eed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Run">
+      <UniqueIdentifier>{1b7daeb7-0108-41ce-9be1-80543965c00a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Sermon">
+      <UniqueIdentifier>{7d90145a-1f63-4c8e-a043-6fb6de9757d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Spell">
+      <UniqueIdentifier>{bea56ab6-0195-4f3b-b160-bac40426fe1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\BackGround">
+      <UniqueIdentifier>{be24dab0-3ac4-4321-9dad-ed47628b4e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Camera">
+      <UniqueIdentifier>{20f0d70f-e959-4a04-890d-4893da35d3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Sky">
+      <UniqueIdentifier>{01e0b8c7-58ef-493c-8f64-8c42d0417d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Terrain">
+      <UniqueIdentifier>{320e06be-c29c-442e-8b3a-35d2ea5d1cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack">
+      <UniqueIdentifier>{4649d5ce-9a8d-478b-83f9-8256e8f5652b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack\FlyBall">
+      <UniqueIdentifier>{88e1ed8b-0456-4d80-8ba7-0ffde5dbd065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack\Chain">
+      <UniqueIdentifier>{baf8dbe1-528d-4616-b13d-bf4e0b598818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Defines">
+      <UniqueIdentifier>{324c7cb5-3905-4b9f-811a-4dc31550770c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\FollowerState">
+      <UniqueIdentifier>{ee437c20-e8ba-4425-8c42-a125703d5892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\Bat">
+      <UniqueIdentifier>{28155dff-0ff5-4880-888a-b6e0cd4d1832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\00.Player">
+      <UniqueIdentifier>{f1de86de-c35c-4b96-bef5-b8b5dae00f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\Human">
+      <UniqueIdentifier>{fbaf9dd9-21fc-4d58-ae0a-67c60d25987f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\00.Boss_DeathCat">
+      <UniqueIdentifier>{e5431e5e-3110-4e44-adf2-c48b22df17d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\Frog">
+      <UniqueIdentifier>{e0c1d527-bdf5-48be-807b-94d3688d0b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Terrain\InteractObject">
+      <UniqueIdentifier>{d10d6cba-af06-47a6-9f90-5ffc840316bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Terrain\DecoObject">
+      <UniqueIdentifier>{679d744a-d49a-464e-b9d3-c36145931f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Terrain\InteractObject\BuildingObject">
+      <UniqueIdentifier>{64118c27-6251-4504-a8db-f7bf224bf28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Terrain\Grid">
+      <UniqueIdentifier>{db896b5f-f286-4cfd-af54-440c3c00d8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\BackGround\BackGround_Player">
+      <UniqueIdentifier>{c9612c59-e956-487a-804d-793dae6e9454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\FollowerState\Follower_Walk">
+      <UniqueIdentifier>{691fe881-608b-4b54-9151-a4642598da83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\FollowerState\Follower_Idle">
+      <UniqueIdentifier>{5d060ceb-4ca0-4e6e-98b9-a85a7970efc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\FollowerState\Follower_Axe">
+      <UniqueIdentifier>{d78a6c35-c937-4236-8f96-abfa3b065aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\FollowerState\Follower_Mining">
+      <UniqueIdentifier>{4c1fd41a-fbcb-48d3-87ac-2315c8ba1d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\FollowerState\Follower_Pray">
+      <UniqueIdentifier>{93e133b7-5c22-4a0d-9a12-fb2bea8ae0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\FollowerState\Follower_Worship">
+      <UniqueIdentifier>{3ee473f8-85f3-47cf-8c47-360c7656bfcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Attack\Combo1">
+      <UniqueIdentifier>{2089387c-9e54-4692-a5f1-1a0bbbfdd874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Attack\Combo2">
+      <UniqueIdentifier>{5a2bea12-4120-4cb4-bfcb-34bdf04d49b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Attack\Combo3">
+      <UniqueIdentifier>{48e395bd-d415-4aee-89be-964df6d0f5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\Turret">
+      <UniqueIdentifier>{34759d88-16ba-4de9-91a5-4685c738488f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Follower">
+      <UniqueIdentifier>{240fa586-c916-4e0a-92c8-ce6583b020d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a045ea52-64eb-4fba-b181-82b04de4cad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a045ea52-64eb-4fba-b181-82b04de4cad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a045ea52-64eb-4fba-b181-82b04de4cad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Logo">
+      <UniqueIdentifier>{e71bbcd2-02ee-4ddf-8563-de8ddd9bf4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Logo\Title">
+      <UniqueIdentifier>{d59ea74e-82c1-4b75-bb85-b50b7842ccc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Logo\Button">
+      <UniqueIdentifier>{97e253ba-ea47-4881-87c4-08898f3727d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Lodding">
+      <UniqueIdentifier>{821afc72-7566-4c6b-b244-066f9ce4a889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Lodding\BackGround_Crown">
+      <UniqueIdentifier>{f4886c16-503c-4747-9f83-055417ad8a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Lodding\Lodding_Gage">
+      <UniqueIdentifier>{598e2747-0e76-4021-a37b-7fe8a0681e75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Lodding\Lodding_Gage\Lodding_GagePanel">
+      <UniqueIdentifier>{9c6a2a10-daf9-430d-a518-81821f141f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Lodding\Lodding_Gage\Lodding_GageBar">
+      <UniqueIdentifier>{c9e75e38-f639-4119-bdb4-d6b5c8536115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay">
+      <UniqueIdentifier>{d5f926d0-8a23-450b-9d58-4cbc318e81f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Quest">
+      <UniqueIdentifier>{3ec874a4-7943-411f-aa32-dd4e920e82a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Quest\Oranment">
+      <UniqueIdentifier>{ff5d1d19-014c-4f66-b239-06e3cec71290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\GusionState">
+      <UniqueIdentifier>{9de3b48b-ea60-4d13-bdcd-011b4ef17ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\GusionState\Idle">
+      <UniqueIdentifier>{f0b85186-52a4-4e75-8fce-fc6749375ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\GusionState\Die">
+      <UniqueIdentifier>{1a90cb97-2bec-40ef-b740-75e599981f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\GusionState\Jump">
+      <UniqueIdentifier>{9a37fe29-af41-4f62-b4ae-8945ec82721a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\GusionState\Roar">
+      <UniqueIdentifier>{06345af5-d33b-4cf8-be4b-698fa851cccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\GusionState\Lay_Egg">
+      <UniqueIdentifier>{181d8671-830a-44f1-a044-72b874eb1768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\GusionState\Burp">
+      <UniqueIdentifier>{4b8e1fa6-a87e-452c-bf85-b95793ba3cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\01. Boss_Gusion">
+      <UniqueIdentifier>{da6e68e1-6bb5-4605-966d-53d29c7769c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\02. Boss_Eligor">
+      <UniqueIdentifier>{2a18eca0-dd45-4779-8a02-09bd2c7f7603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState">
+      <UniqueIdentifier>{8bb2aa99-2bc1-4891-9418-8f0011de437b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState\Idle">
+      <UniqueIdentifier>{641e6714-51ce-4e8a-a2ad-b42b913252b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState\Roar">
+      <UniqueIdentifier>{e055c818-b8c6-4b37-b8ee-717089964837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState\FlyAttack">
+      <UniqueIdentifier>{f181ee4f-cb8a-4c0a-95a8-1c373d3e81e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState\Burp">
+      <UniqueIdentifier>{2c1c2011-6f0b-4392-8ada-95690dc0dfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState\Unconverted">
+      <UniqueIdentifier>{a4265d66-4b55-420a-aaaa-aecf0118e224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState\Transform_Follower">
+      <UniqueIdentifier>{3c191ecf-5353-4855-9eaf-54a4a4301704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Building">
+      <UniqueIdentifier>{70bb9177-f161-4315-a2d7-a42ba17f6d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\FollowerCommandUI">
+      <UniqueIdentifier>{e4724c21-a227-4331-97c3-fe3ba1fe99e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\MouseClickUI">
+      <UniqueIdentifier>{19913fda-ee99-493e-bfaa-45040c7cdea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\MouseClickUI\Mouse_Icon">
+      <UniqueIdentifier>{5726f627-df0f-4e44-a4bf-455d1ec2bee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\FollowerCommandUI\Circle">
+      <UniqueIdentifier>{0d55a992-d1e1-4052-8aac-395d76c15118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\FollowerCommandUI\LetterBox">
+      <UniqueIdentifier>{49e4e954-e4a8-4e55-9eac-af1d267b12c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState">
+      <UniqueIdentifier>{738bea53-e489-4894-803a-cc07f351183b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Effect">
+      <UniqueIdentifier>{bb878438-5bb3-4251-bb96-defc1505ca65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase1">
+      <UniqueIdentifier>{75dba935-f8e7-4c0f-b0fb-ac557726b22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase2">
+      <UniqueIdentifier>{b24f942f-0bdd-4e9b-bf7f-da69bf186dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase2\Eyes">
+      <UniqueIdentifier>{19e36b44-df72-4e03-94e6-8c3f303b1695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\00.Phase1">
+      <UniqueIdentifier>{e7239155-824c-4981-b78f-cf97fbfceb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\00.Phase1\Idle">
+      <UniqueIdentifier>{392ad225-44f0-479e-b869-27b9ccaecef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\00.Phase1\ChainAttack">
+      <UniqueIdentifier>{cad3c6a7-06f7-4a22-a43d-5504919666a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\00.Phase1\Disappear">
+      <UniqueIdentifier>{29fd0b87-44cf-4cc0-bc03-ef868a6280cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\00.Phase1\FlyBall">
+      <UniqueIdentifier>{801f4468-3d29-436f-ac63-73755e341e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\00.Phase1\Hurt">
+      <UniqueIdentifier>{eb37be23-7ff7-4f93-9375-65a8be90dd9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\01.Phase2">
+      <UniqueIdentifier>{e755deb4-10ff-4e0e-8d27-cb9729447d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\01.Phase2\Eye">
+      <UniqueIdentifier>{3da4a26d-321d-4a2d-a2f8-238dd17eb43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\01.Phase2\Eye\Attack">
+      <UniqueIdentifier>{c7b4a90a-30c5-42dd-9adb-ec85e4d27683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\01.Phase2\Eye\Idle">
+      <UniqueIdentifier>{ca60ae9c-963a-4503-bc9f-d5662592d358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\01.Phase2\Eye\Disappear">
+      <UniqueIdentifier>{83545f66-4ebb-4c55-a7db-d082a1f06a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Idle">
+      <UniqueIdentifier>{f68f6434-7639-4da4-a71f-d78fa72039c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Jump">
+      <UniqueIdentifier>{7c665717-bf9a-45d8-bb91-8be5b9118d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Transform_Human">
+      <UniqueIdentifier>{6dbc4469-5acd-47f7-b198-e76936557c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Transform_Frog">
+      <UniqueIdentifier>{49ed90ce-3a13-410d-a977-32c73b9cd085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Roar">
+      <UniqueIdentifier>{17f07767-5e1f-42bb-9ecf-f158f9851b27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Throw_Bomb">
+      <UniqueIdentifier>{0f1eae68-9de4-4b51-9a41-2d60c0b3e7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Lay_Egg">
+      <UniqueIdentifier>{a979a6b0-899a-4798-b6c6-971df07b6b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Die">
+      <UniqueIdentifier>{4d5358ee-8fc5-4012-9661-3d45564a7f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Eye">
+      <UniqueIdentifier>{651e2a8c-7b7e-49d3-acd8-4f72991458a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Eye\Circle_Eye_Pupil">
+      <UniqueIdentifier>{4859b1ac-5269-48e8-9fcf-4c04c05e42f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack\GusionBullet">
+      <UniqueIdentifier>{4b0c12bb-c3c2-4ece-aa18-920792799918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack\EilgorBullet">
+      <UniqueIdentifier>{de69ffd6-693e-4b6a-9be7-acb29338f81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Item">
+      <UniqueIdentifier>{36ef8c93-3a6e-4c9b-877d-ffb6539db6d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\FollowerCommandUI\Circle\Circle_Button">
+      <UniqueIdentifier>{e3e418ea-22ed-4bbd-b5b1-b8e19f9d95ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Building\ItemIcon">
+      <UniqueIdentifier>{7925b920-e58f-4f76-9656-a5deda2b03c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\03. Boss_Hekat">
+      <UniqueIdentifier>{f6187c9e-6aa7-41ec-9bd3-4937b5c6ffad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\HekatState\Transform_Follower">
+      <UniqueIdentifier>{53f0b9df-2b58-4eea-96ca-3bcf2a409a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack\HekatBullet">
+      <UniqueIdentifier>{f8acbcb7-6777-4271-97a0-bc479d192844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack\Mortal_Fly">
+      <UniqueIdentifier>{0de49eb6-7cf3-4785-9a55-c688a47e9082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Player">
+      <UniqueIdentifier>{3fc6dd0e-d864-40e0-93eb-2ffa6b001eb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Player\ItemIcon">
+      <UniqueIdentifier>{5328abec-fc14-4dae-8363-0e4a01425a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\AlpabetButton">
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon1">
+      <UniqueIdentifier>{7e955ebf-de0b-4ecf-86e2-672535504191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon2">
+      <UniqueIdentifier>{7d22dfb9-7aec-4e69-84f5-f6ddab4979f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon3">
+      <UniqueIdentifier>{1fef9b4f-48b5-4fa0-9c8c-28a0bff1de60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Village">
+      <UniqueIdentifier>{6f9e9dbe-70bb-4f7f-8f2f-8b0401d3d5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Item\Chest">
+      <UniqueIdentifier>{efac9072-ecc8-432e-9160-8e822a1860fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon0">
+      <UniqueIdentifier>{7e955ebf-de0b-4ecf-86e2-672535504191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon1">
+      <UniqueIdentifier>{7d22dfb9-7aec-4e69-84f5-f6ddab4979f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon2">
+      <UniqueIdentifier>{1fef9b4f-48b5-4fa0-9c8c-28a0bff1de60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon3">
+      <UniqueIdentifier>{ffadbb7c-9f59-472f-83ad-f5b0241351a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon1">
+      <UniqueIdentifier>{7e955ebf-de0b-4ecf-86e2-672535504191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon2">
+      <UniqueIdentifier>{7d22dfb9-7aec-4e69-84f5-f6ddab4979f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Dungeon3">
+      <UniqueIdentifier>{1fef9b4f-48b5-4fa0-9c8c-28a0bff1de60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Levels\GamePlay\Village">
+      <UniqueIdentifier>{6f9e9dbe-70bb-4f7f-8f2f-8b0401d3d5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Building\Craft">
+      <UniqueIdentifier>{ef61b20a-d68e-4f63-8ee3-f56b531f73bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Building\Craft\CraftIcon">
+      <UniqueIdentifier>{4b6a3ad9-c827-466c-8632-8de579be8bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\00.Player\Player_Bullet">
+      <UniqueIdentifier>{cee1d656-1c7b-47c1-8c1c-05456ac47fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Terrain\Road">
+      <UniqueIdentifier>{46f013d1-234b-4af6-a90e-0a888e7a7da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\Frog\FrogSummon">
+      <UniqueIdentifier>{61b68b70-ce5e-4e8f-8f50-de2b4bddfe0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\NPC">
+      <UniqueIdentifier>{1bbfbae4-97b3-4c7e-b761-b830b92b0a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Tarot">
+      <UniqueIdentifier>{b64681c5-bf95-41b0-ad0d-7e14f4998048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Tarot\ClickBtnE">
+      <UniqueIdentifier>{f55ddab5-856f-487d-8611-d35a53ea674a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Tarot\Cards">
+      <UniqueIdentifier>{06c2e0d7-472b-468c-a709-e0d8d47db7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Particle">
+      <UniqueIdentifier>{0219cf14-8236-491c-aeb7-52c848fa2106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Default">
+      <UniqueIdentifier>{071069d8-f437-4ca4-97dd-e11fe4a7e13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Particle\Rock_Particle">
+      <UniqueIdentifier>{5071d7c7-0b1a-4461-b3b5-ce821d724d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\99.MonsterBone">
+      <UniqueIdentifier>{808d78a9-e923-4fc6-83c4-2cdc76fa70d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Player\MainPlayerUI">
+      <UniqueIdentifier>{10a1f643-b5c0-4d8b-a96f-efcb7f17b694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Building\Craft\Craft_Key">
+      <UniqueIdentifier>{1d4ebeed-81a9-441b-a908-671212ff8239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\GuideUI">
+      <UniqueIdentifier>{3b4ffd02-efcc-404e-9c15-ad36890f4a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Player\MainPlayerUI\PlayerHpUI">
+      <UniqueIdentifier>{42cfab51-0831-4665-8d49-9160bb05836f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Player\SpellGauge">
+      <UniqueIdentifier>{a4bc3e49-23bb-4d59-aee8-44dccf8d39df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Monster">
+      <UniqueIdentifier>{dd298dd8-48c1-4ff1-9b57-f170c51331de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Talk">
+      <UniqueIdentifier>{bea3746e-6176-458a-823e-4907e11eb6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Talk\TalkIcon">
+      <UniqueIdentifier>{a317e2e0-06c2-41b2-8f9d-13c80c8e5d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Item">
+      <UniqueIdentifier>{26d857c6-5b44-4db8-a1c3-99abb7567bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack\Chain\ChainGround">
+      <UniqueIdentifier>{5ca38b1b-489c-471f-bb50-d5393070caff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\FadeInOut">
+      <UniqueIdentifier>{18ddde94-ae98-40d8-943f-5d72f268f447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\Tarot">
+      <UniqueIdentifier>{a4deee99-8f75-4b93-aeb4-db864a5ca147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Tarot\ExplainPanel">
+      <UniqueIdentifier>{e6cfcbc7-bf49-44cf-89b8-9fa37979a997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\NPC\RatNPC">
+      <UniqueIdentifier>{80d9c697-49c9-4900-af64-08d26afb8bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\NPC\TarotNPC">
+      <UniqueIdentifier>{11b4f3f1-b430-48c3-a8b9-7f009ca9806d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState\Lay_Egg">
+      <UniqueIdentifier>{94cee31e-0cf0-4ac4-8934-b36df2cfc153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Item\ItemIcon">
+      <UniqueIdentifier>{8a38d578-e781-41b8-a26e-b1637d66736f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Monologue">
+      <UniqueIdentifier>{e1b9e5d1-7760-4c32-98aa-3b9e4155bb4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Player\MainPlayerUI\PlayerSermonUI">
+      <UniqueIdentifier>{8cd7d086-6170-4ed2-adc9-b47ce89bd3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Player\MainPlayerUI\PlayerSermonGauge">
+      <UniqueIdentifier>{cf8fccf9-f33e-453f-aa97-75d5cd657b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\04. Boss_Aim">
+      <UniqueIdentifier>{ad6db38a-93dd-4df8-86f3-6b5674428c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\AimState">
+      <UniqueIdentifier>{09795c38-6dfb-4fcc-b9be-fc0da01b2d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\AimState\Idle">
+      <UniqueIdentifier>{ac8a9b67-2475-4269-b17b-f0a28d024b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\AimState\Walk">
+      <UniqueIdentifier>{aa5a53ab-525b-4ed2-99b2-a1839c611730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\AimState\IdleToAttack">
+      <UniqueIdentifier>{427e2bd6-ac66-45f0-a43c-2a683f5f26d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\AimState\Attack1">
+      <UniqueIdentifier>{c5f774e4-04fd-4e07-ac2b-6cd29a8ce2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\AimState\Attack2">
+      <UniqueIdentifier>{eaeecaaa-7d9b-46ef-887b-dd6f2ae29667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\AimState\Attack3">
+      <UniqueIdentifier>{8e03a72c-c36c-4a32-ae03-449ca4f6df9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\AimState\Die">
+      <UniqueIdentifier>{939b1cc0-a865-4389-9ab6-18bf16da4815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\MonsterAttack\Chain\ChainGround">
+      <UniqueIdentifier>{5ca38b1b-489c-471f-bb50-d5393070caff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Monster\00.Boss_DeathCat\Phase2\Controller">
+      <UniqueIdentifier>{60653b9d-9c64-45e4-98c1-bf040a6e3ae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\DeadCatState\01.Phase2\Eye\Die">
+      <UniqueIdentifier>{7789c17f-fab3-4cb1-8462-a5d4990373de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\WarpIn">
+      <UniqueIdentifier>{ea233972-cf43-45e7-83b9-dd376f687baf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\PlayerState\WarpOut">
+      <UniqueIdentifier>{1f23e913-278f-4a62-910e-8493ca732186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\Tarot\ExplainPanel">
+      <UniqueIdentifier>{e6cfcbc7-bf49-44cf-89b8-9fa37979a997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\NPC\RatNPC">
+      <UniqueIdentifier>{80d9c697-49c9-4900-af64-08d26afb8bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\NPC\TarotNPC">
+      <UniqueIdentifier>{11b4f3f1-b430-48c3-a8b9-7f009ca9806d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\EligorState\Lay_Egg">
+      <UniqueIdentifier>{94cee31e-0cf0-4ac4-8934-b36df2cfc153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. LandObject\Door">
+      <UniqueIdentifier>{5d451d8d-260b-4416-8228-c93caa52e322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\DungeonClearUI">
+      <UniqueIdentifier>{cc8c8baa-e0c9-43f0-bded-e6fc4fc37d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. States\FollowerState\Follower_Indo">
+      <UniqueIdentifier>{e77defc1-0495-4aea-a15e-4923f855c4b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Particle\Bullet_Particle">
+      <UniqueIdentifier>{7f3de129-9634-4b3d-a97c-5667ef30013a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\Particle\Bone_Particle">
+      <UniqueIdentifier>{48290c01-84d8-4540-8af9-15aab8cf7ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\DungeonClearUI\OpenIcon">
+      <UniqueIdentifier>{43de143e-f5ab-4637-8eaf-41d7307ce200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\GamePlay\Monologue\MonologuePanelUI">
+      <UniqueIdentifier>{09d00160-85ac-4bc9-be37-a102d86d4462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Quest">
+      <UniqueIdentifier>{e87f5183-98a7-4413-95e3-68924e5f11da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98. Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\Shaders\Example.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shaders\Shader_BlendObject.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shaders\Shader_UI.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shaders\Shader_FlyBall.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shaders\Shader_Door.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\Shaders\Shader_Boss.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
